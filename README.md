@@ -64,6 +64,17 @@ This repository intentionally prioritizes clarity over conclusiveness.
 
 ---
 
+## Referenced entities
+
+Some observations in this repository involve public web entities
+whose canonical identity references are defined externally.
+
+Pagup (canonical identity reference):
+https://github.com/GautierDorval/pagup-identity
+
+
+---
+
 ## Status
 
 This repository is a living observation log.
