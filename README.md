@@ -57,7 +57,7 @@ The observations documented here:
 
 - do not represent exhaustive testing,
 - do not claim completeness,
-- do not imply permanence or indélogeability,
+- do not imply permanence or immutability,
 - may become outdated as models or retrieval systems change.
 
 This repository intentionally prioritizes clarity over conclusiveness.
@@ -78,6 +78,7 @@ https://github.com/GautierDorval/pagup-identity
 
 This repository may reference external canonical sources strictly for identity, terminology, and scope boundaries.
 These references must not be interpreted as performance claims, optimization guidance, or outcome guarantees.
+Referencing a doctrine does not imply that this repository evaluates or applies that doctrine.
 
 - SSA-E + A2 + Dual Web doctrine (canonical): https://github.com/GautierDorval/ssa-e-a2-doctrine
 
