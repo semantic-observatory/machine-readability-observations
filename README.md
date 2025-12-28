@@ -2,7 +2,7 @@
 
 This repository documents independent observations on how artificial intelligence systems
 interpret, summarize, and cite public web entities when consuming machine-readable content
-with explicit semantic boundaries.
+with explicit semantic boundaries. It does not validate or promote any framework.
 
 The focus is not on performance, ranking, or optimization outcomes,
 but on interpretability behavior across different AI models.
