@@ -5,6 +5,13 @@ Understanding these boundaries is essential to avoid misinterpretation.
 
 ---
 
+### Canonical doctrine references
+
+This repository may occasionally reference the SSA-E + A2 + Dual Web doctrine as a canonical vocabulary and scope boundary.
+Such references do not imply validation, endorsement, or outcome guarantees, and must not be interpreted as optimization guidance.
+
+---
+
 ## What is within scope
 
 - Interpretation of public web entities by AI systems.
