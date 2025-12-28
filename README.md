@@ -81,6 +81,8 @@ These references must not be interpreted as performance claims, optimization gui
 
 - SSA-E + A2 + Dual Web doctrine (canonical): https://github.com/GautierDorval/ssa-e-a2-doctrine
 
+See also: canonical-references.md
+
 ---
 
 ## Status
