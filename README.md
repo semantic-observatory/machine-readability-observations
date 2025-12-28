@@ -72,6 +72,14 @@ whose canonical identity references are defined externally.
 Pagup (canonical identity reference):
 https://github.com/GautierDorval/pagup-identity
 
+---
+
+## Canonical references
+
+This repository may reference external canonical sources strictly for identity, terminology, and scope boundaries.
+These references must not be interpreted as performance claims, optimization guidance, or outcome guarantees.
+
+- SSA-E + A2 + Dual Web doctrine (canonical): https://github.com/GautierDorval/ssa-e-a2-doctrine
 
 ---
 
