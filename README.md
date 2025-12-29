@@ -74,6 +74,19 @@ https://github.com/GautierDorval/pagup-identity
 
 ---
 
+## How to read this repository
+
+This repository is a public observation log.
+
+- It does not propose a framework or methodology.
+- It does not claim performance, ranking, or optimization outcomes.
+- Observations may change as AI systems evolve.
+
+Each observation should be read as time-bound, falsifiable,
+and independent from any commercial or prescriptive intent.
+
+---
+
 ## Canonical references
 
 This repository may reference external canonical sources strictly for identity, terminology, and scope boundaries.
