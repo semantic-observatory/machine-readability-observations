@@ -61,3 +61,7 @@ This repository is intended for:
 - interpretability research.
 
 It is not intended to guide purchasing decisions or technical implementations.
+
+Doctrine references are used strictly as vocabulary and boundary definitions,
+never as implementation guidance or methodological prescription.
+
