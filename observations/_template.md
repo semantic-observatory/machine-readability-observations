@@ -1,5 +1,8 @@
 # Observation title
 
+Note: This document records observations only.
+It does not assert causality, performance, or general applicability.
+
 **Date:**  
 **Context:**  
 **Models / systems involved:**  
@@ -24,3 +27,4 @@ Conditions under which this observation would be invalidated.
 
 ## Notes
 Known limitations, noise, or uncertainty.
+
