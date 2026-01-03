@@ -1,4 +1,4 @@
-# Models tested
+# Systems and interfaces referenced
 
 This document lists AI systems referenced in observations.
 Inclusion does not imply endorsement or exhaustive coverage.
