@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-01-03
+Clarified canonical identity references and doctrinal boundaries.
+Reframed model references as systems or interfaces.
+
 ## 2025-12-23
 - Repository created.
 - Initial scope, methodology, and limitations defined.
