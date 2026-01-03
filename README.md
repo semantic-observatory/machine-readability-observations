@@ -69,8 +69,11 @@ This repository intentionally prioritizes clarity over conclusiveness.
 Some observations in this repository involve public web entities
 whose canonical identity references are defined externally.
 
-Pagup (canonical identity reference):
-https://github.com/GautierDorval/pagup-identity
+- Gautier Dorval (canonical identity):  
+  https://github.com/GautierDorval/gautierdorval-identity
+
+- Pagup (canonical identity reference):
+  https://github.com/GautierDorval/pagup-identity
 
 ---
 
