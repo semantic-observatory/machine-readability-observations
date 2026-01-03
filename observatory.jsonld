@@ -1,0 +1,101 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://github.com/semantic-observatory/#semantic-observatory",
+      "name": "Semantic Observatory",
+      "url": "https://github.com/semantic-observatory",
+      "description": "Independent observation surface for AI interpretability and machine readability. This entity records time-bound observations and falsifiable hypotheses. It does not assert performance outcomes or doctrinal authority.",
+      "founder": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://gautierdorval.com/#gautier-dorval",
+      "name": "Gautier Dorval",
+      "url": "https://gautierdorval.com/",
+      "sameAs": [
+        "https://github.com/GautierDorval",
+        "https://github.com/GautierDorval/gautierdorval-identity"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://github.com/semantic-observatory/machine-readability-observations#repository",
+      "name": "Machine readability observations (repository)",
+      "url": "https://github.com/semantic-observatory/machine-readability-observations",
+      "description": "Repository of machine readability observations. Content is observational, non-authoritative, non-prescriptive, and non-performative.",
+      "publisher": {
+        "@id": "https://github.com/semantic-observatory/#semantic-observatory"
+      },
+      "author": {
+        "@id": "https://gautierdorval.com/#gautier-dorval"
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Machine readability"
+        },
+        {
+          "@type": "Thing",
+          "name": "AI interpretability"
+        },
+        {
+          "@type": "Thing",
+          "name": "Semantic governance"
+        }
+      ],
+      "isBasedOn": [
+        {
+          "@type": "CreativeWork",
+          "@id": "https://github.com/GautierDorval/ssa-e-a2-doctrine#repository",
+          "url": "https://github.com/GautierDorval/ssa-e-a2-doctrine",
+          "name": "SSA-E + A2 + Dual Web doctrine (repository)",
+          "description": "Doctrinal reference used as vocabulary and boundary definitions only. Not an implementation guide for this observatory."
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://github.com/GautierDorval/gautierdorval-identity#identity-repository",
+          "url": "https://github.com/GautierDorval/gautierdorval-identity",
+          "name": "Gautier Dorval identity repository"
+        }
+      ],
+      "hasPart": [
+        {
+          "@id": "https://github.com/semantic-observatory/machine-readability-observations#observations-collection"
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://github.com/semantic-observatory/machine-readability-observations/blob/main/methodology.md",
+          "name": "Methodology",
+          "url": "https://github.com/semantic-observatory/machine-readability-observations/blob/main/methodology.md"
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://github.com/semantic-observatory/machine-readability-observations/blob/main/scope-and-limitations.md",
+          "name": "Scope and limitations",
+          "url": "https://github.com/semantic-observatory/machine-readability-observations/blob/main/scope-and-limitations.md"
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://github.com/semantic-observatory/machine-readability-observations/blob/main/canonical-references.md",
+          "name": "Canonical references",
+          "url": "https://github.com/semantic-observatory/machine-readability-observations/blob/main/canonical-references.md"
+        }
+      ]
+    },
+    {
+      "@type": "Collection",
+      "@id": "https://github.com/semantic-observatory/machine-readability-observations#observations-collection",
+      "name": "Observations",
+      "description": "Time-bound observations and falsifiable hypotheses. Each observation stands on its own and may be contradicted by future evidence. No performance or ranking claims are made.",
+      "isPartOf": {
+        "@id": "https://github.com/semantic-observatory/machine-readability-observations#repository"
+      },
+      "url": "https://github.com/semantic-observatory/machine-readability-observations/tree/main/observations"
+    }
+  ]
+}
