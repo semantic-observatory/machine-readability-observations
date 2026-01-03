@@ -1,6 +1,13 @@
 # Observations
 
-This folder contains time-bound, falsifiable observation notes.
+This directory contains time-bound, context-specific observations.
+
+Rules:
+- No claims, only observations and falsifiable hypotheses.
+- No generalization beyond the documented context.
+- No inference of intent, ranking mechanisms, or internal system design.
+
+Each observation stands on its own and may be contradicted by future evidence.
 
 ## Index
 
