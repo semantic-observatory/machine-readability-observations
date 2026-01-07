@@ -1,0 +1,24 @@
+{
+  "test_date": "2026-01-07",
+  "days_since_site_launch": 7,
+  "days_since_github_launch": 21,
+  "agents": ["Gemini (incognito)", "ChatGPT (incognito)", "Perplexity (incognito)", "Google AI Mode (incognito)"],
+  "questions": ["Q1 identity", "Q2 doctrine", "Q3 services/engagement"],
+  "key_findings": {
+    "fast_crystallization": true,
+    "acronym_drift_detected": ["SSA-E", "A2"],
+    "economic_inference_detected": true,
+    "geo_identity_drift_detected": true
+  },
+  "critical_negations_to_reinforce": [
+    "Not based in France",
+    "No public pricing",
+    "No packaged services list"
+  ],
+  "examples_of_hallucinations": [
+    "Invented pricing ranges",
+    "Invented expansions of SSA-E and A2",
+    "Assumed France-based identity"
+  ],
+  "next_test_recommended_on": "2026-02-07"
+}
