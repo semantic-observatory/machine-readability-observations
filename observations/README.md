@@ -13,3 +13,6 @@ Each observation stands on its own and may be contradicted by future evidence.
 
 - 2025-12: Boundary files are consulted before explanatory content
   - `2025-12-boundaries-before-explanations.md`
+
+- 2026-01: Model requests author definition before inferring
+  - `2026-01/model-requests-author-definition-before-inference.md`
