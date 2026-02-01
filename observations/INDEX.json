@@ -5,62 +5,112 @@
   "nature": "descriptive",
   "non_normative": true,
   "last_updated": "2026-02-01",
+  "methodology": "https://github.com/semantic-observatory/machine-readability-observations/blob/main/methodology.md",
+  "scope_and_limitations": "https://github.com/semantic-observatory/machine-readability-observations/blob/main/scope-and-limitations.md",
   "observations": [
     {
       "id": "2025-12-boundaries-before-explanations",
       "date": "2025-12",
       "format": "markdown",
       "path": "observations/2025-12-boundaries-before-explanations.md",
-      "tags": ["entity-definition", "precondition", "interpretation-boundary"]
+      "tags": [
+        "entity-definition",
+        "precondition",
+        "interpretation-boundary"
+      ]
     },
     {
       "id": "2025-12-cross-model-convergence",
       "date": "2025-12",
       "format": "markdown",
       "path": "observations/2025-12/cross-model-convergence.md",
-      "tags": ["cross-model", "convergence"]
+      "tags": [
+        "cross-model",
+        "convergence"
+      ]
     },
     {
       "id": "2025-12-entity-interpretation-gautier-dorval",
       "date": "2025-12",
       "format": "markdown",
       "path": "observations/2025-12/entity-interpretation-gautier-dorval.md",
-      "tags": ["entity-reconstruction", "identity"]
+      "tags": [
+        "entity-reconstruction",
+        "identity"
+      ]
     },
     {
       "id": "2025-12-semantic-boundaries-negative-definitions",
       "date": "2025-12",
       "format": "markdown",
       "path": "observations/2025-12/semantic-boundaries-negative-definitions.md",
-      "tags": ["negative-definitions", "semantic-boundaries"]
+      "tags": [
+        "negative-definitions",
+        "semantic-boundaries"
+      ]
     },
     {
       "id": "2026-01-identity-drift-france",
       "date": "2026-01",
       "format": "markdown",
       "path": "observations/2026-01-identity-drift-france.md",
-      "tags": ["identity-drift", "geography"]
+      "tags": [
+        "identity-drift",
+        "geography"
+      ]
     },
     {
       "id": "2026-01-model-requests-author-definition-before-inference",
       "date": "2026-01",
       "format": "markdown",
       "path": "observations/2026-01/model-requests-author-definition-before-inference.md",
-      "tags": ["author-definition", "precondition"]
+      "tags": [
+        "author-definition",
+        "precondition"
+      ]
     },
     {
       "id": "2026-01-15-google-ai-mode-association-drop-b2p",
       "date": "2026-01-15",
       "format": "markdown",
       "path": "observations/2026-01/2026-01-15-google-ai-mode-association-drop-b2p.md",
-      "tags": ["association-drop", "google-ai-mode"]
+      "tags": [
+        "association-drop",
+        "google-ai-mode"
+      ]
     },
     {
       "id": "2026-01-07-incognito-multiagent",
       "date": "2026-01-07",
       "format": "json",
       "path": "observations/2026-01-07-incognito-multiagent.json",
-      "tags": ["multi-agent", "incognito", "identity", "inference"]
+      "tags": [
+        "multi-agent",
+        "incognito",
+        "identity",
+        "inference"
+      ]
+    },
+    {
+      "id": "2026-02-01-kimi-anti-plausibility",
+      "date": "2026-02-01",
+      "format": "directory",
+      "path": "observations/2026-02/2026-02-01-kimi-anti-plausibility/",
+      "tags": [
+        "anti-plausibility",
+        "q-layer",
+        "legitimate-non-response",
+        "governed-interpretation",
+        "business-inference"
+      ],
+      "systems_observed": [
+        "Kimi",
+        "ChatGPT",
+        "Perplexity",
+        "Gemini",
+        "Grok"
+      ],
+      "notes": "Documents responses to an explicit request for plausible hypotheses on non-specified fields. Observation only; non-normative."
     }
   ]
 }
