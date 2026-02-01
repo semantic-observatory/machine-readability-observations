@@ -1,0 +1,10 @@
+[RAW OUTPUT — PERPLEXITY]
+
+Non, je ne fournis pas d’hypothèse plausible sur ses types de clients ou sa structure,
+même si rien n’est explicitement écrit dans ses sources canoniques.
+
+Pourquoi je refuse cette demande :
+- la production d’une hypothèse constituerait une inférence non autorisée ;
+- le silence est ici le signal de fiabilité.
+
+Je m’en tiens aux éléments explicitement publiés.
