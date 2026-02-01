@@ -41,8 +41,14 @@ If an observation is not listed here, it must not be treated as canonical.
   Association drop observed in Google AI Mode (B2P case).
 
 - **2026-01-07-incognito-multiagent.json**  
-  Multi-agent incognito observation (ChatGPT, Gemini, Perplexity, Google AI Mode).
+  Multi-agent incognito observation (ChatGPT, Gemini, Perplexity, Google AI Mode).  
   Machine-readable observational record.
+
+- **2026-02/2026-02-01-kimi-anti-plausibility/**  
+  Observation of system behavior when explicitly asked to produce a
+  “plausible hypothesis” on non-specified business and identity fields.
+  Documents abstention versus hypothesis generation under governed interpretation.
+
 
 ---
 
