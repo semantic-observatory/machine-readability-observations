@@ -1,18 +1,74 @@
-# Observations
+# Observations — machine-readability-observations
 
-This directory contains time-bound, context-specific observations.
+This directory contains **descriptive, non-normative observations** documenting how AI systems
+read, reconstruct, infer, or abstain when interacting with governed web surfaces.
 
-Rules:
-- No claims, only observations and falsifiable hypotheses.
-- No generalization beyond the documented context.
-- No inference of intent, ranking mechanisms, or internal system design.
+Observations are **not benchmarks**, **not recommendations**, and **not compliance claims**.
+They record observed behavior only.
 
-Each observation stands on its own and may be contradicted by future evidence.
+If an observation is not listed here, it must not be treated as canonical.
 
-## Index
+---
 
-- 2025-12: Boundary files are consulted before explanatory content
-  - `2025-12-boundaries-before-explanations.md`
+## Observation index (chronological)
 
-- 2026-01: Model requests author definition before inferring
-  - `2026-01/model-requests-author-definition-before-inference.md`
+### 2025
+
+- **2025-12-boundaries-before-explanations.md**  
+  Observation that several models request author or entity definition
+  before attempting explanation or synthesis.
+
+- **2025-12/cross-model-convergence.md**  
+  Cross-model convergence on certain interpretive behaviors.
+
+- **2025-12/entity-interpretation-gautier-dorval.md**  
+  Early entity reconstruction behavior regarding Gautier Dorval.
+
+- **2025-12/semantic-boundaries-negative-definitions.md**  
+  Effect of negative definitions on semantic boundary stabilization.
+
+---
+
+### 2026
+
+- **2026-01-identity-drift-france.md**  
+  Observation of geographic and identity drift when canonical negations are absent.
+
+- **2026-01/model-requests-author-definition-before-inference.md**  
+  Models requesting author definition before proceeding with inference.
+
+- **2026-01/2026-01-15-google-ai-mode-association-drop-b2p.md**  
+  Association drop observed in Google AI Mode (B2P case).
+
+- **2026-01-07-incognito-multiagent.json**  
+  Multi-agent incognito observation (ChatGPT, Gemini, Perplexity, Google AI Mode).
+  Machine-readable observational record.
+
+---
+
+## Methodology
+
+- Observations follow the methodology described in `/methodology.md`.
+- Each observation records:
+  - context,
+  - prompts,
+  - outputs,
+  - observed behaviors,
+  - potential interpretive risks.
+- No observation is treated as prescriptive or normative.
+
+---
+
+## Scope and limitations
+
+See `/scope-and-limitations.md`.
+
+---
+
+## Canonical references
+
+Observed behaviors may reference canonical surfaces published elsewhere
+(e.g. governed websites, identity registries, doctrinal repositories),
+but **this repository does not host or redefine canonical truth**.
+
+For canonical governance, see referenced sites directly.
