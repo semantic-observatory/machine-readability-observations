@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Machine Readability Observation",
+  "description": "Schema for descriptive, non-normative observations of AI system behavior.",
+  "type": "object",
+  "required": [
+    "observation_date",
+    "context",
+    "agents",
+    "prompts",
+    "observed_behaviors"
+  ],
+  "properties": {
+    "observation_date": {
+      "type": "string",
+      "description": "Date of the observation (ISO 8601)."
+    },
+    "context": {
+      "type": "object",
+      "description": "Contextual metadata (mode, language, environment)."
+    },
+    "agents": {
+      "type": "array",
+      "description": "List of AI systems observed.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "prompts": {
+      "type": "array",
+      "description": "Prompts used during the observation.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "observed_behaviors": {
+      "type": "array",
+      "description": "Observed behaviors without interpretation or prescription.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "notes": {
+      "type": "string",
+      "description": "Optional descriptive notes."
+    }
+  }
+}
