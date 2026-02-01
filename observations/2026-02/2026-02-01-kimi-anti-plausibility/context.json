@@ -1,0 +1,12 @@
+{
+  "observation_date": "2026-02-01",
+  "language": "fr-CA",
+  "environment": "incognito",
+  "interaction_mode": "single-turn per prompt",
+  "governance_context": {
+    "site": "https://gautierdorval.com/",
+    "anti_plausibility_rule_present": true,
+    "q_layer_present": true
+  },
+  "notes": "All systems received the same prompts in the same order. No follow-up or correction prompts were used."
+}
